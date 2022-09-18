@@ -1,0 +1,137 @@
+
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F5F8FD;
+  padding-bottom: 20px;
+}
+
+.mainLogo {
+  background-color: #6A4BFF;
+  padding: 1em;
+  margin: 0 auto;
+  text-align: center;
+  clear: both;
+}
+
+.headline {
+  margin-top: 32px;
+  line-height: 1.4;
+  max-width: 600px;
+}
+
+.description {
+  text-align: center;
+  font-size: 1.75em;
+  font-weight: 400;
+}
+
+.howcontainer, .formcontainer{
+  font-family: 'Raleway', sans-serif;
+  max-width: 90%;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.howcontainer h2, .formcontainer h2 {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.howgridcontainer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 0;
+}
+
+
+.howgrid {
+  border: 1px solid rgb(222, 228, 236);
+  border-radius: 1em;
+  list-style: none;
+  flex: 0 0 31.333333%;
+  padding: 1em;
+  margin: 10px;
+}
+
+.howgrid dt {
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.howgrid dd {
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 1.125em;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.formcontainer p {
+  text-align: justify;
+  line-height: 1.7;
+  max-width: 80%;
+  margin: 0 auto;
+  
+}
+
+.botaoChamada {
+  margin: 20px auto;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;  
+  border-top: 1px solid #eaeaea;
+  background-color: #F5F8FD;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;  
+}
+
+
+.logo {
+  padding: .5em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .howgrid {
+    flex: 0 0 80%;
+  }
+
+  .headline {
+    max-width: 80%;
+  }
+  
+  .description {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 400;
+  }
+  
+}
