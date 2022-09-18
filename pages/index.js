@@ -45,7 +45,7 @@ export default function Home() {
       
           <p>É simples: clique no link abaixo para responder a um rápido questionário. 
 Você terá a oportunidade de nos ajudar a fazer a plataforma ideal para a sua realidade e ainda ganhará uma assinatura vitalícia.
-Aproveite agora essa oferta, ela estará disponivél por um curto intervalo de tempo.</p>
+Aproveite agora essa oferta, ela estará disponível por um curto intervalo de tempo.</p>
 
         <a href="#" className={styles.botaoChamada}>Responder questionário</a>
         </section>
