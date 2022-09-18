@@ -19,6 +19,8 @@ export default function Home() {
           <h1 className={styles.description}>Ajude-nos a construir a plataforma perfeita para receber seus agendamentos e <strong>ganhe gratuitamente uma assinatura vitalícia!</strong></h1>
         </div>
 
+        <a href="https://forms.gle/UdygfxuPGyYCgbK67" target={'_blank'} className={styles.botaoChamada} rel="noreferrer">Responder questionário</a>
+
         <section className={styles.howcontainer}>
           <h2>Como a plataforma irá funcionar:</h2>
 
@@ -47,7 +49,7 @@ export default function Home() {
 Você terá a oportunidade de nos ajudar a fazer a plataforma ideal para a sua realidade e ainda ganhará uma assinatura vitalícia.
 Aproveite agora essa oferta, ela estará disponível por um curto intervalo de tempo.</p>
 
-        <a href="#" className={styles.botaoChamada}>Responder questionário</a>
+        <a href="https://forms.gle/UdygfxuPGyYCgbK67" target={'_blank'} className={styles.botaoChamada} rel="noreferrer">Responder questionário</a>
         </section>
 
         <section className={styles.formcontainer}>
