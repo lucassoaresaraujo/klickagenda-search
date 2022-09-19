@@ -34,6 +34,10 @@
   font-weight: 400;
 }
 
+.headline p {
+  margin-top: 16px;
+}
+
 .howcontainer, .formcontainer{
   font-family: 'Raleway', sans-serif;
   max-width: 90%;
