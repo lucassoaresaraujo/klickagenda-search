@@ -17,6 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.headline}>
           <h1 className={styles.description}>Ajude-nos a construir a plataforma perfeita para receber seus agendamentos e <strong>ganhe gratuitamente uma assinatura vitalícia!</strong></h1>
+          <p>Responda o questionário e receba gratuidade vitalícia no klickagenda!</p>
         </div>
 
         <a href="https://forms.gle/UdygfxuPGyYCgbK67" target={'_blank'} className={styles.botaoChamada} rel="noreferrer">Responder questionário</a>
@@ -56,7 +57,7 @@ Aproveite agora essa oferta, ela estará disponível por um curto intervalo de t
           <h2>Por que estamos fazendo isso?</h2>
       
           <p>Acreditamos que nada melhor que pessoas como você, que precisam dessa solução, nos ajudando a construir a melhor ferramenta do mercado.
-Ao nos ajudar, você poderá usá-la gratuitamente para sempre e iremos, com a sua ajuda, fazer a melhor plataforma para vender para outras pessoas que precisam dessa solução.
+Ao nos ajudar, você poderá usá-la gratuitamente para sempre e iremos, com a sua ajuda, fazer a melhor plataforma para atender quem precisa dessa solução.
 </p>
         </section>
 
