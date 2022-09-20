@@ -1,0 +1,22 @@
+.main {
+  max-width: 80%;
+  text-align: justify;
+  margin: 0 auto;
+  line-height: 1.4;
+}
+
+.main ul {
+  margin-left: 20px;
+}
+
+.main p {
+  margin-top: 0.4em;
+}
+
+.main h2 {
+  margin-top: 0.6em;
+}
+
+.main h3 {
+  margin-top: 0.5em;
+}

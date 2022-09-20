@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -20,7 +21,7 @@ export default function Home() {
           <p>Responda o questionário e receba gratuidade vitalícia no klickagenda!</p>
         </div>
 
-        <a href="https://forms.gle/UdygfxuPGyYCgbK67" target={'_blank'} className={styles.botaoChamada} rel="noreferrer">Responder questionário</a>
+        <a href="./form" target={'_blank'} className={styles.botaoChamada} rel="noreferrer">Responder questionário</a>
 
         <section className={styles.howcontainer}>
           <h2>Como a plataforma irá funcionar:</h2>
@@ -50,7 +51,7 @@ export default function Home() {
 Você terá a oportunidade de nos ajudar a fazer a plataforma ideal para a sua realidade e ainda ganhará uma assinatura vitalícia.
 Aproveite agora essa oferta, ela estará disponível por um curto intervalo de tempo.</p>
 
-        <a href="https://forms.gle/UdygfxuPGyYCgbK67" target={'_blank'} className={styles.botaoChamada} rel="noreferrer">Responder questionário</a>
+        <a href="./form" target={'_blank'} className={styles.botaoChamada} rel="noreferrer">Responder questionário</a>
         </section>
 
         <section className={styles.formcontainer}>
